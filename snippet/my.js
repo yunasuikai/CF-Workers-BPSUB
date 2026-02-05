@@ -1,4 +1,4 @@
-const FIXED_UUID = '';// ws + xhttp版本
+const FIXED_UUID = '63138ea3-5b7a-42b6-8738-273bf5533756';// ws + xhttp版本
 import { connect } from 'cloudflare:sockets';
 let 反代IP = '', 启用SOCKS5反代 = null, 启用SOCKS5全局反代 = false, 我的SOCKS5账号 = '', parsedSocks5Address = {};
 export default {
