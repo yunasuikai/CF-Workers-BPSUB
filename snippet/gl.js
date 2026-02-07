@@ -1,4 +1,4 @@
-const FIXED_UUID = '';// 建议修改为自己的规范化UUID，如不需要可留空 @GoodLiux优化版
+const FIXED_UUID = '8934f764-41a6-42df-adf9-82c087801dfc';// 建议修改为自己的规范化UUID，如不需要可留空 @GoodLiux优化版
 let 反代IP = '', 启用SOCKS5反代 = null, 启用SOCKS5全局反代 = false, 我的SOCKS5账号 = '', parsedSocks5Address = {};
 export default {
     async fetch(request) {
@@ -714,4 +714,5 @@ async function 获取SOCKS5账号(address) {
         throw new Error('无效的 SOCKS 地址格式：IPv6 地址必须用方括号括起来，如 [2001:db8::1]');
     }
     return { username, password, hostname, port };
+
 }
