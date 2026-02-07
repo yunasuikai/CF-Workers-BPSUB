@@ -2,7 +2,7 @@ import { connect } from 'cloudflare:sockets';
 
 // ---------------- 配置区域 ----------------
 let proxyIP = 'proxy.xxxxxxxx.tk:50001'; 
-let yourUUID = '93bf61d9-3796-44c2-9b3a-49210ece2585'; 
+let yourUUID = '171e0960-f013-40a7-9a9f-f5d909942c82'; 
 let cfip = [
     'mfa.gov.ua#SG', 'saas.sin.fan#HK', 'store.ubi.com#JP', 'cf.130519.xyz#KR', 
     'cf.008500.xyz#HK', 'cf.090227.xyz#SG', 'cf.877774.xyz#HK', 
